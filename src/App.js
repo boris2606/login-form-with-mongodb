@@ -15,11 +15,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<News/>}/>
-          <Route path='signup' element={<SignUp/>}/>
-          <Route path='signin' element={<SignIn/>}/>
-          <Route path='news' element={<News/> }/>
-          <Route path='posts' element={<Posts/> }/>
-          <Route path='admin-panel' element={<ProtectedRoutes component={ <Admin/> } />}/>
+          <Route path='/signup' element={<SignUp/>}/>
+          <Route path='/signin' element={<SignIn/>}/>
+          <Route path='/news' element={<News/> }/>
+          <Route path='/posts' element={<Posts/> }/>
+          <Route path='/admin-panel' element={<ProtectedRoutes component={ <Admin/> } />}/>
         </Route>
       </Routes>
     </BrowserRouter>
