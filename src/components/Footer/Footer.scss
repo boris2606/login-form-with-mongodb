@@ -1,0 +1,25 @@
+.footer_wrapper{
+    margin-top: 40px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    padding: 15px 20px;
+    background: #29a07a;
+
+    p{
+        font: 900 14px Roboto;
+        color: #effaf5;
+    }
+}
+.resume_link{
+    font: 900 14px Roboto;
+    color: #135241;
+    text-decoration: none;
+    transition: .3s all ease;
+
+    &:hover{
+        color: #effaf5;
+    }
+}

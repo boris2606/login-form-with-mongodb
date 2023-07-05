@@ -1,0 +1,32 @@
+.wrapper_admin_panel{
+    padding: 20px;
+}
+.wrapper_admin_panel_tab{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.admin_panel_tabs{
+    display: flex;
+    gap: 20px;
+}
+.admin_panel_tab{
+    font: 500 16px Roboto;
+    padding: 5px 15px;
+    background: #28A079;
+    border: none;
+    border-radius: 5px;
+    color: #effaf5;
+    cursor: pointer;
+    transition: .3s all ease;
+
+    &:hover{
+        color: #effaf5;
+        background: #114337;
+    }
+
+    &:focus{
+        color: #effaf5;
+        background: #114337;
+    }
+}

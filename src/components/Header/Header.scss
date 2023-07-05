@@ -1,0 +1,94 @@
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #29a07a;
+}
+.header_navigation_block{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    nav{
+        display: flex;
+    }
+}
+.header_logo_text{
+    font: 900 20px Roboto;
+    color: #effaf5;
+}
+.person_text{
+    font: 900 20px Roboto;
+    color: #d7f4e5;
+    text-transform: uppercase;
+}
+.header_navigation_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    li{
+        list-style: none;
+        font: 500 16px Roboto;
+        
+        a{
+            text-decoration: none;
+            color: #effaf5;
+            transition: .3s all ease;
+
+            &:hover{
+                color: #08261f;
+            }
+        }
+    }
+}
+.header_line{
+    background: #effaf5;
+    border: 0px solid #effaf5;
+    width: 3px;
+    height: 26px;
+}
+
+.sign_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    a{
+        font: 400 14px Roboto;
+        color: #effaf5;
+        text-decoration: none;
+        background: #08261f;
+        padding: 5px;
+        border-radius: 5px;
+        transition: .3s all ease;
+
+        &:hover{
+            color: #08261f;
+            background: #effaf5;
+        }
+    }
+}
+.visible_btn {
+    display: block;
+    font: 400 14px Roboto;
+    color: #effaf5;
+    text-decoration: none;
+    background: #08261f;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s all ease;
+    cursor: pointer;
+    border: none;
+
+    &:hover{
+        color: #08261f;
+        background: #effaf5;
+    }
+}
+.hidden_btn{
+    display: none;
+}
