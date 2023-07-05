@@ -4,7 +4,7 @@ import { Navigate } from 'react-router-dom';
 const ProtectedRoutes = ({component}) => {
     const signInPerson = JSON.parse(localStorage.getItem('IdU'))
 
-    if (signInPerson && signInPerson.isAdmin && component.type.name === 'Admin') { 
+    if (component.type.name === 'Admin') { 
         return component
     } else {
         return <Navigate to='/'/>
