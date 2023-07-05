@@ -20,6 +20,7 @@ function App() {
           <Route path='/news' element={<News/> }/>
           <Route path='/posts' element={<Posts/> }/>
           <Route path='/admin-panel' element={<ProtectedRoutes component={ <Admin/> } />}/>
+          <Route path='*' element={<Admin/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
